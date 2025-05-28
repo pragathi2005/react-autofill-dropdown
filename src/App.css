@@ -1,0 +1,72 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #b9cb8d, #7294cc);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: rgb(211, 161, 216);
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px #63aebd1a;
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 26px;
+  color: #060411;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #a75363;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+.suggestions {
+  list-style: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.suggestions li {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.suggestions li:hover {
+  background-color: #f0f0f0;
+}
+.highlight {
+  font-weight: bold;
+  color: #070808;
+}
+h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #12084c;
+}
